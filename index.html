@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="./style.css" type="text/css" rel="stylesheet">
+    <link href="./favicon.ico" type="image/png" rel="shortcut icon">
+    <title>Web Nav</title>
+</head>
+<body style="background-color:grey; text-align: center">
+    <a name="top"></a>
+    <div>
+      <h1 class="title">Web Nav</h1>
+        <span class="marquee" id="dtText">
+            <script>
+                var today = new Date();
+                document.getElementById('dtText').innerHTML=today;
+            </script>
+        </span>
+      <ul class="navigation">
+          <li class="inline"><a href="#socials" class="list">Socials</a></li>
+          <li class="inline"><a href="#entertain" class="list">Entertainment</a></li>
+          <li class="inline"><a href="#banking" class="list">Banking and Purchases</a></li>
+          <li class="inline"><a href="#outdoors" class="list">Outdoors</a></li>
+      </ul>
+      <br>
+      <h2 class="social-medias" id="socials">Social Medias</h2>
+      <a href="https://www.reddit.com/" target="_blank"><img src="./reddit.jpg"/></a>
+      <a href="https://9gag.com/" target="_blank"><img src="./9gag.png" class="inline"/></a>
+      <a href="https://www.quora.com/#" target="_blank"><img src="./quora.png" class="inline"></a>
+    </div>
+    <br>
+    <div>
+        <h2 class="content" id="entertain">Entertainment</h1>
+        <a href="https://www.youtube.com/" target="_blank"><img src="./youtube.png"></a>
+        <a href="https://www.hulu.com/" target="_blank"><img src="./hulu.png"></a>
+        <ul>
+          <li class="channels"><a href="https://www.youtube.com/channel/UC_AFyA9FqrZ57bb9QRH77wg" target="_blank" class="content bullet">Hockey Guy</a></li>
+          <li class="channels"><a href="https://www.youtube.com/user/UFC" target="_blank" class="content bullet">UFC</a></li>
+          <!--
+          <li class="channels"><a href="https://www.youtube.com/channel/UC0nZbm9dI9heoE8JVt3yEpQ" target="_blank" class="content bullet">Prim</a></li>
+          <li class="channels"><a href="https://www.youtube.com/channel/UC_ARaeDGHVLAqi6whEWQRTg" target="_blank" class="content bullet">Ozley</a></li>
+          -->
+        </ul>
+    </div>
+    <div>
+        <h2 class="content" id="banking">Banking and Purchases</h2>
+        <a href="https://www.wellsfargo.com/" target="_blank"><img src="./wellsfargo.png"></a>
+        <a href="https://www.amazon.com/" target="_blank"><img src="./amazon.png" class="inline"></a>
+    </div>
+    <div>
+        <h2 class="content" id="outdoors">Outdoors</h2>
+        <a href="https://www.sportsmans.com/" target="_blank"><img src="./sportsmans.jpeg" class="inline"></a>
+    </div>
+    <br>
+    <br>
+    <div>
+        <a href="#top"><button class="button">Back to Top</button></a>
+    </div>
+
+</body>
+</html>
+
